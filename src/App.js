@@ -2,6 +2,9 @@ import React from "react";
 import routes from "./routes";
 import { useRoutes } from "react-router";
 import Topbar from "./components/topbar/topbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+
+import './App.css'
 
 export default function App() {
 
@@ -10,7 +13,10 @@ export default function App() {
   return (
     <>
      <Topbar/>
-      {router}
+     <div className="container">
+           <Sidebar/>
+           {router}
+     </div>
     </>
   );
 }

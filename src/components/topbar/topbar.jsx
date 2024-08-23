@@ -1,8 +1,8 @@
-import React from 'react'
-import './topbar.css'
-import NotificationIcon from '@mui/icons-material/Notificationicons'
-import LanguageIcon from '@mui/icons-material/Language'
-import SettingsIcon from '@mui/icons-material/Settings'
+import React from 'react';
+import './topbar.css';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import LanguageIcon from '@mui/icons-material/Language';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 
 export default function Topbar() {
@@ -10,11 +10,11 @@ export default function Topbar() {
     <div className='topbar'>
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className='logo'>oktino🩵</span>
+          <span className='logo'>OKTINO🩵</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
-            <NotificationIcon/>
+            <NotificationsNoneIcon/>
             <span className='topIconBadge'>2</span>
           </div>
           <div className="topbarIconContainer">
@@ -24,7 +24,7 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <SettingsIcon/>
           </div>
-          <img className='profile-images' src="/cms-project/public/images/Mohamad-fallah.jpg" alt="mohammadfallh" />
+          <img className='profile-images' src="images/Mohamad-fallah.jpg" alt="mohammadfallh" />
         </div>
       </div>
     </div>
