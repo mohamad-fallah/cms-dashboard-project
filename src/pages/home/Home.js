@@ -3,6 +3,7 @@ import Features from '../../components/features/Features'
 import './Home.css'
 import Chart from '../../components/chart/Chart'
 import WidgetSm from '../../components/widgetSm/WidgetSm';
+import WidgetLg from '../../components/widgetLg/WidgetLg';
 import {xAxisData} from '../../datas';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <Chart grid title="Month Sale" data={xAxisData}/>
     <div className='homeWidgets'>
       <WidgetSm/>
+      <WidgetLg/>
     </div>
     </div>
   )

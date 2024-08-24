@@ -76,4 +76,39 @@ const newMembers = [
     },
 ] 
 
-export {xAxisData , newMembers};
+const Transactions = [
+    {
+        id: 1,
+        customer: 'MohammadReza',
+        date: '12 June 2024',
+        amount: 123,
+        status: 'Declined',
+        img: 'images/Mohamad-fallah.jpg',
+    },
+    {
+        id: 2,
+        customer: 'AmirMohammad',
+        date: '1 Feb 2024',
+        amount: 123,
+        status: 'Pending',
+        img: 'images/download (1).webp',
+    },
+    {
+        id: 3,
+        customer: 'MehdiKhosroparast',
+        date: '22 May 2024',
+        amount: 123,
+        status: 'Approved',
+        img: 'images/download (2).webp',
+    },
+    {
+        id: 4,
+        customer: 'MohammadAmin',
+        date: '1 June 2024',
+        amount: 123,
+        status: 'Pending',
+        img: 'images/download.webp',
+    },
+]
+
+export {xAxisData , newMembers, Transactions};
