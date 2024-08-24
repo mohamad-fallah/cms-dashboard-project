@@ -1,0 +1,42 @@
+.feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.FeatureItem {
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.FeatureTitle {
+    font-size: 20px;
+}
+.FeatureContainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.FeatureMoney {
+    font-size: 30px;
+    font-weight: 600;
+}
+.FeatureRate {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.FeatureIcon {
+    font-size: 24px !important;
+    margin-left: 5px;
+    color: green;
+}
+.negative {
+    color: red !important;
+}
+.FeatureSub {
+    font-size: 15px;
+    color: gray;
+}
