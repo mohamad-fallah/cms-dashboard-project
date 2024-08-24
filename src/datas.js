@@ -49,4 +49,31 @@ let xAxisData = [
     }
 ];
 
-export default xAxisData;
+const newMembers = [
+    {
+        id: 1,
+        username: 'MohammadReza',
+        title: 'Web Developer',
+        img: 'images/Mohamad-fallah.jpg'
+    },
+    {
+        id: 2,
+        username: 'AmirMohammad',
+        title: 'Graphic Designer',
+        img: 'images/download (1).webp'
+    },
+    {
+        id: 3,
+        username: 'MehdiKhosroparast',
+        title: 'Acconting',
+        img: 'images/download (2).webp'
+    },
+    {
+        id: 4,
+        username: 'MohammadAmin',
+        title: 'Full Stack',
+        img: 'images/download.webp'
+    },
+] 
+
+export {xAxisData , newMembers};
