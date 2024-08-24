@@ -81,7 +81,7 @@ const Transactions = [
         id: 1,
         customer: 'MohammadReza',
         date: '12 June 2024',
-        amount: 123,
+        amount: '$45',
         status: 'Declined',
         img: 'images/Mohamad-fallah.jpg',
     },
@@ -89,7 +89,7 @@ const Transactions = [
         id: 2,
         customer: 'AmirMohammad',
         date: '1 Feb 2024',
-        amount: 123,
+        amount: '$3120',
         status: 'Pending',
         img: 'images/download (1).webp',
     },
@@ -97,7 +97,7 @@ const Transactions = [
         id: 3,
         customer: 'MehdiKhosroparast',
         date: '22 May 2024',
-        amount: 123,
+        amount: '$1240',
         status: 'Approved',
         img: 'images/download (2).webp',
     },
@@ -105,10 +105,45 @@ const Transactions = [
         id: 4,
         customer: 'MohammadAmin',
         date: '1 June 2024',
-        amount: 123,
+        amount: '$120',
         status: 'Pending',
         img: 'images/download.webp',
     },
 ]
 
-export {xAxisData , newMembers, Transactions};
+let userRow = [
+    {
+        id: 1,
+        username: 'Mohammad Falalh',
+        avatar: "images/Mohamad-fallah.jpg",
+        status: "active",
+        transactions: '$129.34',
+        email: 'mfallahfaal@gmail.com'
+    },
+    {
+        id: 2,
+        username: 'Mohammad Mohammadi',
+        avatar: "images/download (1).webp",
+        status: "active",
+        transactions: '$110',
+        email: 'lorem@gmail.com'
+    },
+    {
+        id: 3,
+        username: 'Amir Jalilvand',
+        avatar: "images/download (2).webp",
+        status: "active",
+        transactions: '$0',
+        email: 'test@gmail.com'
+    },
+    {
+        id: 4,
+        username: 'Mehdi zarriz',
+        avatar: "images/download.webp",
+        status: "active",
+        transactions: '$105',
+        email: 'test2@gmail.com'
+    },
+]
+
+export {xAxisData , newMembers, Transactions, userRow};

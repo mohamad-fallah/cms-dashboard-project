@@ -4,11 +4,6 @@ import { Transactions } from '../../datas'
 
 
 export default function WidgetLg() {
-
-
-
-
-
     //btn component for change color
     const Button = ({type}) => {
         return <button className={'widgetLgButton ' + type}>{type}</button>
