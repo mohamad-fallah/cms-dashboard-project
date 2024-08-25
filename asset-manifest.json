@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cms-dashboard-project/static/css/main.c1790d98.css",
+    "main.js": "/cms-dashboard-project/static/js/main.a64d9c78.js",
+    "index.html": "/cms-dashboard-project/index.html",
+    "main.c1790d98.css.map": "/cms-dashboard-project/static/css/main.c1790d98.css.map",
+    "main.a64d9c78.js.map": "/cms-dashboard-project/static/js/main.a64d9c78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1790d98.css",
+    "static/js/main.a64d9c78.js"
+  ]
+}
