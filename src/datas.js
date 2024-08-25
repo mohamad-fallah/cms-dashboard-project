@@ -173,5 +173,26 @@ let product = [
     },
 ]
 
+const productsData = [
+    {
+        Name: "Jan",
+        sales: 7050,
+    },
+    {
+        Name: "Feb",
+        sales: 580,
+    },
+    {
+        Name: "Mur",
+        sales: 5_000,
+    },
+]
 
-export {xAxisData , newMembers, Transactions, userRow, product};
+export {
+    xAxisData ,
+    newMembers,
+    Transactions,
+    userRow,
+    product,
+    productsData,
+};
